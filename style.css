@@ -1,0 +1,11 @@
+.accordion:after {
+    content: '\02795'; /* unicode character for + sign */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active: after {
+    content: "\2796"; /* unicode character for - sign */
+}
